@@ -181,6 +181,34 @@ section{
 .card video{
     width: 200px;
 }
+.step-sec-info{
+display: flex;
+justify-content: space-between;
+gap: 40px;
+}
+.step-sec-info p{
+    max-width: 400px;
+
+}
+
+.step-sec-info h1{
+    max-width: 360px;
+}
+.step-sec-info h1 span{
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+#step-sec li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-bottom: 35px;
+    margin-top: 40px;
+}
+#step-sec li img{
+    width: 50px;
+}
 
 
 

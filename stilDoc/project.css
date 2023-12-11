@@ -1,0 +1,117 @@
+.welcome{
+    padding: 100px;
+    font-size: 55px;
+    background-color: #52ACFF;
+    background-image: linear-gradient(180deg, #52ACFF 32%, #FFE32C 100%);
+    
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.what-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+
+}
+.what-info{
+    max-width: 600px;
+}
+.what-info h1{
+    margin-bottom: 50px;
+}
+.what-cards{
+    display: flex;
+    gap: 100px;
+    margin-top: 50px
+
+}
+.what-card{
+background-color: #323443;
+min-width: 200px;
+max-width: 400px;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 20px;
+padding: 30px 20px;
+position: relative;
+
+
+}
+.what-card img{
+    width: 50px;
+    position: absolute;
+    top: -50px;
+}
+
+
+.project-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project-image{
+    background-color: #323443;
+    display: flex;
+    padding: 40px 60px 0;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+
+
+
+}
+.project-image:hover{
+    background-color: #FA8BFF;
+background-image: linear-gradient(45deg, #FA8BFF 31%, #2BD2FF 61%, #2BFF88 80%);
+
+
+}
+.project-image .icon{
+    background-color: #494a57;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.project-info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1000px){
+    what-cards{
+        flex-direction: column;
+    }
+}
